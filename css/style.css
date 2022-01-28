@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+body {
+	font-family: 'Karla', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: hsl(204, 43%, 93%);
+}
+
+.title {
+	color: hsl(179, 62%, 43%);
+	font-size: 1.5em;
+}
+
+.card {
+	overflow: hidden;
+	background-color: #fff;
+	font-size: 1.15em;
+	max-width: 700px;
+	border-radius: 5px;
+	box-shadow: 0 0 35px rgb(220, 220, 227);
+}
+
+.header {
+	padding: 40px;
+}
+
+.paragraph {
+	line-height: 1.50em;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.division {
+	display: flex;
+}
+
+.division-card {
+	width: 50%;
+	padding: 40px;
+}
+
+.division-title {
+	font-size: 1.20em;
+	color: #fff;
+}
+
+.price {
+	font-weight: 700;
+	font-size: 1.35em;
+	color: #fff;
+}
+
+.month {
+	font-size: 1em;
+	font-weight: 400;
+	margin-left: 10px;
+}
+
+.button {
+	border: none;
+	border-radius: 5px;
+	padding: 15px 0;
+	cursor: pointer;
+	width: 100%;
+	box-shadow: 0 0 15px hsl(177, 29%, 43%);
+	font-size: 1em;
+	font-weight: 700;
+
+}
+
+.bg-cyan {
+	background-color: hsl(179, 62%, 43%);
+}
+
+.bg-light-cyan {
+	background-color: hsl(179, 62%, 49%);
+}
+
+.bg-bright-yellow {
+	background-color: hsl(71, 73%, 54%);
+}
+
+.bright-yellow {
+	color: hsl(71, 73%, 54%);
+}
+
+.light-gray {
+	color: hsl(204, 43%, 93%);
+}
+
+.grayish-blue {
+	color: hsl(218, 22%, 67%);
+}
+
+.white {
+	color: #fff;
+}
